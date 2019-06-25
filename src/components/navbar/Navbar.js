@@ -22,6 +22,15 @@ export default function Navbar() {
             Products
           </Link>
         </li>
+        
+      </ul>
+      <ul className="navbar-nav align-items-center">
+        <li className="nav-item ml-5">
+          <Link to="/" className="nav-link">
+            Support
+          </Link>
+        </li>
+        
       </ul>
       <Link to="/cart" className="ml-auto">
         <Button>
