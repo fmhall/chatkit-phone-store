@@ -1,25 +1,15 @@
-// import React from 'react';
-// import Title from '../common/Title';
-// import CartColumns from './CartColumns';
-// import EmptyCart from './EmptyCart';
-// import CartList from './CartList';
-// import CartTotal from './CartTotal';
-// import { useCartState } from '../../global-state';
+import React from 'react';
 
-// export default function Cart() {
-//   const { cartState, cartActions } = useCartState();
-//   const { cart } = cartState;
-//   let content;
-//   content =
-//     cart.length > 0 ? (
-//       <>
-//         <Title name="your" title="cart" />
-//         <CartColumns />
-//         <CartList cart={cart} />
-//         <CartTotal cartState={cartState} cartActions={cartActions} />
-//       </>
-//     ) : (
-//       <EmptyCart />
-//     );
-//   return content;
-// }
+export default function Support() {
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-10 mx-auto text-center text-title text-uppercase py-5">
+          <h1 className="display-4">Support Center</h1>
+          <h1>Error</h1>
+          <h2>Page Not Found</h2>
+        </div>
+      </div>
+    </div>
+  );
+}

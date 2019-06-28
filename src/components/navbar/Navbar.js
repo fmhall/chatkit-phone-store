@@ -26,7 +26,7 @@ export default function Navbar() {
       </ul>
       <ul className="navbar-nav align-items-center">
         <li className="nav-item ml-5">
-          <Link to="/" className="nav-link">
+          <Link to="/support" className="nav-link">
             Support
           </Link>
         </li>
