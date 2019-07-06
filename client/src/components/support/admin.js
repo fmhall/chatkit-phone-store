@@ -10,7 +10,7 @@ class Admin extends Component {
     super();
     this.state = {
       currentUser: 'support',
-      currentRoom: '19414139',
+      currentRoom: '24648809',
       newMessage: "",
       messages: [],
       rooms: []
@@ -32,7 +32,7 @@ class Admin extends Component {
         });
 
         const chatManager = new Chatkit.ChatManager({
-          instanceLocator: "v1:us1:d7b0164e-51ac-4296-9582-d84666d485bd",
+          instanceLocator: "v1:us1:57a9caaa-c37f-4a48-8d2f-33e48e80e81a",
           userId,
           tokenProvider
         });

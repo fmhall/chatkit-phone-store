@@ -10,7 +10,7 @@ import Details from './components/product/details/Details';
 import Cart from './components/cart/Cart';
 import Default from './components/default/Default';
 import Modal from './components/product/modal/Modal';
-import Support from './components/support/support1';
+import Support from './components/support/Support';
 import Signup from './components/support/Signup';
 import Admin from './components/support/admin';
 
