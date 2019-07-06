@@ -116,7 +116,9 @@ class Support extends Component {
           <div className="chat-session">{ChatSession}</div>
           <form onSubmit={this.sendMessage} className="message-form">
             <input
-              autoFocus
+            className="message-input"
+            autofocus
+            autocomplete="off"
               placeholder="Compose your message and hit ENTER to send"
               onChange={this.handleInput}
               value={newMessage}

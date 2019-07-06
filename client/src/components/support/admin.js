@@ -117,6 +117,8 @@ class Admin extends Component {
           <form onSubmit={this.sendMessage} className="message-form">
             <input
               autoFocus
+              className="message-input"
+              autocomplete="off"
               placeholder="Compose your message and hit ENTER to send"
               onChange={this.handleInput}
               value={newMessage}
